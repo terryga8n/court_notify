@@ -1,0 +1,115 @@
+.login-bg {
+  background: #f7f7f7;
+  min-height: 100vh;
+}
+
+.login-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px 0 rgba(44,33,124,0.08);
+  padding: 2.5rem 2rem 2rem 2rem;
+  width: 100%;
+  max-width: 420px;
+}
+
+.login-card input.form-control {
+  border-radius: 18px;
+  border: 1.5px solid #d3d3d3;
+  padding-left: 2.5rem;
+  font-size: 1rem;
+}
+
+.login-card .input-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #008040;
+  font-size: 1.2rem;
+}
+
+.login-card .btn-primary {
+  background: #008040;
+  border-radius: 18px;
+  border: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.login-card .btn-outline-primary {
+  border-radius: 18px;
+  border: 1.5px solid #008040;
+  color: #008040;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.login-card .btn-outline-primary:hover {
+  background: #008040;
+  color: #fff;
+}
+
+.login-card .form-check-label {
+  font-size: 0.95rem;
+}
+
+.login-card .form-text {
+  font-size: 0.95rem;
+}
+
+.footer-green {
+  background: linear-gradient(90deg, #008040 0%, #0a6d2f 100%);
+}
+
+.footer-green .footer-section-title {
+  font-weight: 600;
+  font-size: 1.08rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+.footer-green .footer-contact {
+  font-size: 0.97rem;
+  line-height: 1.6;
+}
+
+.footer-green .footer-contact .contact-label {
+  font-weight: 500;
+  margin-top: 0.7rem;
+  margin-bottom: 0.2rem;
+  display: block;
+  color: #e0ffe0;
+}
+
+.footer-green .footer-contact .contact-value {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.footer-green .footer-divider {
+  border-top: 1px solid rgba(255,255,255,0.15);
+  margin: 0.7rem 0;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding-top: 0.5rem;
+  margin-top: 1rem;
+}
+
+.footer-link {
+  color: #e0ffe0;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media (max-width: 991px) {
+  .login-logo-col {
+    display: none !important;
+  }
+}

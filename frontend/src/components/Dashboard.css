@@ -1,0 +1,108 @@
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  background: #fff;
+  border-right: 1px solid #e5e7eb;
+  min-height: 100vh;
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px 0;
+  color: #222;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.sidebar a:hover, .sidebar a.active {
+  background: #008040;
+  color: #fff;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  background-color: #F3F4F6; /* Gray-100 */
+  padding: 30px;
+  overflow-y: auto;
+}
+
+/* Page Titles */
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Forms */
+.form-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-container input, .form-container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #D1D5DB; /* Gray-300 */
+  border-radius: 4px;
+}
+
+.form-container button {
+  background-color: #2563EB; /* Blue-600 */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #1D4ED8; /* Blue-700 */
+}
+
+/* Case Overview Box */
+.case-overview-box {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.case-overview-box h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Notification Preferences */
+.notification-preferences {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.notification-preferences label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Dashboard Content */
+.dashboard-content {
+  min-height: 500px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  padding: 2rem;
+}

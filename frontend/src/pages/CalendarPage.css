@@ -1,0 +1,59 @@
+/* Improved react-big-calendar toolbar and button styles */
+.rbc-toolbar {
+  font-size: 0.93rem !important;
+  padding: 0.3rem 0.5rem !important;
+  min-height: 36px !important;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.rbc-toolbar .rbc-btn-group {
+  gap: 0.1rem;
+}
+
+.rbc-toolbar button,
+.rbc-toolbar .rbc-btn-group button {
+  font-size: 0.92rem !important;
+  padding: 0.18rem 0.6rem !important;
+  min-width: 48px !important;
+  height: 28px !important;
+  border-radius: 4px !important;
+  background: #e9ecef;
+  border: 1px solid #ced4da;
+  color: #222;
+  transition: background 0.2s, color 0.2s;
+}
+
+.rbc-toolbar button:active,
+.rbc-toolbar button:focus,
+.rbc-toolbar .rbc-btn-group button.rbc-active {
+  background: #008040 !important;
+  color: #fff !important;
+  border-color: #008040 !important;
+}
+
+.rbc-toolbar .rbc-label {
+  font-size: 1rem !important;
+  font-weight: 600;
+  color: #008040;
+}
+
+
+
+/* Visually move the view buttons below the navigation buttons */
+.rbc-toolbar .rbc-btn-group:last-child {
+  display: block;
+  margin-right: 50.5rem;
+}
+
+.rbc-toolbar .rbc-btn-group:last-child button {
+  margin-bottom: 1rem;
+}
+
+/* Optionally, make the navigation buttons group inline */
+.rbc-toolbar .rbc-btn-group:not(:last-child) {
+  display: inline-flex;
+  vertical-align: bottom;
+}
